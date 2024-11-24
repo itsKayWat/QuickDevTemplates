@@ -1,0 +1,44 @@
+DevFileForge/
+│
+├── src/
+│   ├── install.py           # Main installation script
+│   ├── uninstall.py        # Removal script
+│   └── templates/          # Template files for generation
+│       ├── html/
+│       ├── css/
+│       └── js/
+│
+├── docs/
+│   ├── README.md           # Main documentation
+│   ├── README.html         # HTML version of documentation
+│   └── CHANGELOG.md        # Version history
+│
+├── tests/                  # Test cases
+│   └── test_installation.py
+│
+├── scripts/
+│   ├── build.py           # Build scripts
+│   └── deploy.py          # Deployment utilities
+│
+├── .github/
+│   └── workflows/         # GitHub Actions
+│       └── ci.yml
+│
+├── LICENSE                # Project license
+├── requirements.txt       # Python dependencies
+├── setup.py              # Package setup file
+└── .gitignore            # Git ignore rules
+
+Directory Structure Notes:
+-------------------------
+- src/: Contains core functionality
+- docs/: All documentation files
+- tests/: Test suite
+- scripts/: Build and deployment tools
+- templates/: File templates for generation
+
+Key Files:
+----------
+install.py: Windows context menu installation
+uninstall.py: Clean removal of context menu entries
+templates/: Pre-configured file templates
